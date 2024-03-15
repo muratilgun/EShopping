@@ -1,8 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{284478CB-8120-45B2-AB0A-80A91AFE08F8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalog", "Catalog", "{C23A9B38-461D-4DD0-98FC-A7A872C4A5D3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C23A9B38-461D-4DD0-98FC-A7A872C4A5D3} = {284478CB-8120-45B2-AB0A-80A91AFE08F8}
 	EndGlobalSection
 EndGlobal
