@@ -1,9 +1,13 @@
+using Catalog.Application;
+using Catalog.Infrastructure;
 using HealthChecks.UI.Client;
 using Microsoft.AspNetCore.Diagnostics.HealthChecks;
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
+builder.Services.AddApplicationServices();
+builder.Services.AddInfrastructureServices();
 builder.Services.AddHealthChecks();
 
 var app = builder.Build();

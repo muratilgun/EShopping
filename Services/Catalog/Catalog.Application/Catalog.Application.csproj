@@ -10,4 +10,18 @@
       <ProjectReference Include="..\Catalog.Core\Catalog.Core.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <PackageReference Include="AutoMapper" Version="13.0.1" />
+      <PackageReference Include="MediatR" Version="12.2.0" />
+      <PackageReference Include="Microsoft.Extensions.Configuration" Version="8.0.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Features\Brands\Commands\" />
+      <Folder Include="Features\Products\Commands\" />
+      <Folder Include="Features\Products\Queries\" />
+      <Folder Include="Features\Types\Commands\" />
+      <Folder Include="Features\Types\Queries\" />
+    </ItemGroup>
+
 </Project>
