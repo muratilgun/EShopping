@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using Catalog.Application.Features.Products.Commands;
+using Catalog.Application.Features.Products.Commands.CreateProduct;
 
 namespace Catalog.Application.Features.Products.Profiles;
 

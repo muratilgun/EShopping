@@ -1,13 +1,13 @@
 ﻿using Catalog.Core.Entities;
 using MongoDB.Bson;
 using MongoDB.Bson.Serialization.Attributes;
-using Type = Catalog.Core.Entities.Type;
+using Type =  Catalog.Core.Entities.Type;
+namespace Catalog.Application.Features.Products.Queries.GetProductByBrandName;
 
-namespace Catalog.Application.Features.Products.Commands;
-
-public class CreateProductResponse
+public class GetProductByBrandNameResponse
 {
     [BsonId]
+    
     [BsonRepresentation(BsonType.ObjectId)]
     public string Id { get; set; }
     [BsonElement("Name")]

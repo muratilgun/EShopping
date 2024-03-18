@@ -2,7 +2,7 @@
 using MediatR;
 using Type = Catalog.Core.Entities.Type;
 
-namespace Catalog.Application.Features.Products.Commands;
+namespace Catalog.Application.Features.Products.Commands.CreateProduct;
 
 public class CreateProductCommand : IRequest<CreateProductResponse>
 {

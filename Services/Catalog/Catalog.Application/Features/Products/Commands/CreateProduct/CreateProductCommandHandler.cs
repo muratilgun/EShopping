@@ -5,7 +5,7 @@ using MediatR;
 using static Catalog.Application.Extensions.MapperExtensions;
 
 
-namespace Catalog.Application.Features.Products.Commands;
+namespace Catalog.Application.Features.Products.Commands.CreateProduct;
 
 public class CreateProductCommandHandler(IProductRepository productRepository)
     : IRequestHandler<CreateProductCommand, CreateProductResponse>
