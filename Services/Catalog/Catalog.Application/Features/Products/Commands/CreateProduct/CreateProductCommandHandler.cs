@@ -19,7 +19,7 @@ public class CreateProductCommandHandler(IProductRepository productRepository)
         {
             throw new ApplicationException("There was an error mapping the product");
         }
-        var newProduct = await _productRepository.CreateProduct(product);
+        Product newProduct = await _productRepository.CreateProduct(product);
         var productResponse = LazyMapper.Map<CreateProductResponse>(newProduct);
         return productResponse;
     }

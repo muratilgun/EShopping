@@ -9,6 +9,7 @@ public class MappingProfile : Profile
     public MappingProfile()
     {
         CreateMap<Core.Entities.Product, CreateProductResponse>().ReverseMap();
+        CreateMap<Core.Entities.Product, CreateProductCommand>().ReverseMap();
     }
     
 }
