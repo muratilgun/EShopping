@@ -18,8 +18,6 @@
 
     <ItemGroup>
       <Folder Include="Features\Brands\Commands\" />
-      <Folder Include="Features\Products\Commands\" />
-      <Folder Include="Features\Products\Queries\" />
       <Folder Include="Features\Types\Commands\" />
       <Folder Include="Features\Types\Queries\" />
     </ItemGroup>
