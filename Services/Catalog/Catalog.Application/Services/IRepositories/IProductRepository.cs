@@ -6,7 +6,7 @@ namespace Catalog.Application.Services.IRepositories;
 public interface IProductRepository
 {
     Task<Pagination<Product>> GetProducts(CatalogSpecParams catalogSpecParams);
-    Task<Product> GetProduct(string id);
+    Task<Product> GetProductAsync(string id);
     Task<IEnumerable<Product>> GetProductByName(string name);
     Task<IEnumerable<Product>> GetProductByBrand(string name);
     Task<Product> CreateProduct(Product product);

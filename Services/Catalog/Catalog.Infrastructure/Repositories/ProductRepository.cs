@@ -90,7 +90,7 @@ public class ProductRepository(ICatalogContext context) : IProductRepository
         }
     }
 
-    public async Task<Product> GetProduct(string id)
+    public async Task<Product> GetProductAsync(string id)
     {
         return await context
             .Products

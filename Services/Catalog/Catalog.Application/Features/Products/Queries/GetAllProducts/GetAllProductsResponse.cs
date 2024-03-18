@@ -3,7 +3,8 @@ using MongoDB.Bson;
 using MongoDB.Bson.Serialization.Attributes;
 using Type =  Catalog.Core.Entities.Type;
 
-namespace Catalog.Application.Features.Products.Queries;
+namespace Catalog.Application.Features.Products.Queries.GetAllProducts;
+
 
 public class GetAllProductsResponse 
 {
